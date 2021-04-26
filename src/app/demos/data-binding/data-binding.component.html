@@ -1,0 +1,44 @@
+<div class="container mt-from-menu">
+    <h3>Interpolation</h3>
+    <p>O número de clique é: {{ contadorClique }}</p>
+
+    <br>
+    <br>
+
+    <h3>Property Binding</h3>
+
+    <button class="btn btn-info" [disabled]="contadorClique % 2 == 0">Info</button><br><br>
+    <img [src]="urlImg" height="50px" width="50px">
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h3>Event Binding</h3>
+    <button class="btn btn-warning" (click)='AdicionarClique()'>Clique-me</button>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h3>Two-way binding</h3>
+
+<!--    
+    <input type="text" (keyup)='perdaDeFoco($event)' placeholder="Digite seu Nome">
+    <br>
+    <br>
+    <label>Seu Nome é: {{nome}}</label>
+-->
+<!--
+    <input type="text" [ngModel]="nome" (ngModelChange)="nome = $event" placeholder="Digite seu Nome">
+    <br>
+    <br>
+    <label>Seu Nome é: {{nome}}</label>
+-->
+    <input type="text" [(ngModel)]="nome" placeholder="Digite seu Nome">
+    <br>
+    <br>
+    <label>Seu Nome é: {{nome}}</label>
+</div>

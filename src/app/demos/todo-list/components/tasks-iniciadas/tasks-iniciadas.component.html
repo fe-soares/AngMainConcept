@@ -1,0 +1,5 @@
+<div class="tasks">
+    <todo-list [list]="$any(iniciados$ | async)" (toggle)="onToggle($event)">
+        Tarefas Iniciada
+    </todo-list>
+</div>

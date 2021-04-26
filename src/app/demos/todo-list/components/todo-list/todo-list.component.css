@@ -1,0 +1,62 @@
+.task-list{
+    background-color: #fff;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+}
+
+.task-list h3{
+    background-color: #552075;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0.0rem !important;
+}
+
+.task-list_finalizado{
+    width: 22px;
+    height: 20px;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+.task-list_iniciado{
+    width: 22px;
+    height: 20px;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+.task-list_retroceder{
+    width: 22px;
+    height: 20px;
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
+}
+
+.task-btn{
+    float: right;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.task-list li{
+    list-style-type: none !important;
+    position: relative;
+    padding: 10px 20px;
+}
+
+.task-list li:nth-child(2n){
+    background-color: #f5f4f5;
+}
+
+.task-list li p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.task-list li span{
+    color: #807d82;
+}

@@ -1,0 +1,52 @@
+{
+  "todolist": [
+    {
+      "id": 1,
+      "nome": "Responder e-mails",
+      "finalizado": false,
+      "iniciado": false
+    },
+    {
+      "id": 2,
+      "nome": "Reunião com fornecedor",
+      "finalizado": false,
+      "iniciado": true
+    },
+    {
+      "id": 3,
+      "nome": "Finalizar curso angular",
+      "finalizado": false,
+      "iniciado": false
+    },
+    {
+      "id": 4,
+      "nome": "publicar feedback no linkedin",
+      "finalizado": false,
+      "iniciado": false
+    },
+    {
+      "id": 5,
+      "nome": "levar cachorro ao veterinario",
+      "finalizado": false,
+      "iniciado": true
+    },
+    {
+      "id": 6,
+      "nome": "ligar para mãe",
+      "finalizado": true,
+      "iniciado": false
+    },
+    {
+      "id": 7,
+      "nome": "comprar café",
+      "finalizado": true,
+      "iniciado": false
+    },
+    {
+      "id": 8,
+      "nome": "visitar desenvolvedor.io",
+      "finalizado": false,
+      "iniciado": true
+    }
+  ]
+}
